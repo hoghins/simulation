@@ -158,15 +158,6 @@ km<-rep(NaN,split_interval_num)
 plot(km)
 
 
-# #《R语言与现代统计方法》P321 核密度估计法
-# #R软件包stats用来计算核密度估计函数,输入值是m
-# library(stats)
-# km_stats<-density(m,bw=h_n,kernel = "gaussian")
-# km_stats$y
-# plot(km_stats$x,km_stats$y,type="l",lwd=2,main="h=h_n",xlab="x",ylab="y")
-# 
-# ##M_1(x)=mu(x)
-
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~
